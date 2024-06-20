@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Teko", sans-serif;
+}
+
+.heros {
+    background-color: #55AD9B;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 3rem; /* Adjust font size */
+    line-height: 1.2; /* Adjust line height */
+}
+
+.info h2 {
+    font-size: 2.5rem; /* Adjust font size */
+    line-height: 1.2; /* Adjust line height */
+}
+
+.info p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.teko-font {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.image {
+    margin-top: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.text1 h2 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.three {
+    color: black !important;
+}
+
+.style-eight {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double black;
+    color: black;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.resume {
+    text-align: center;
+}
+
+.projects {
+    padding: 50px 0;
+}
+
+.mypro {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.mypro h2 {
+    font-size: 2.5rem;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #F1F8E8;
+    padding: 20px 0; 
+    text-align: center;
+    width: 100%; 
+    margin-top: auto; 
+}
+
+footer .col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .col-md-4 span {
+    font-size: 1rem;
+}
+
+footer .nav li {
+    list-style: none;
+}
+
+footer .nav a {
+    color: #333;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .info {
+        padding-top: 150px;
+        text-align: left;
+    }
+
+    .info h1 {
+        font-size: 4rem;
+    }
+
+    .info h2 {
+        font-size: 3.5rem;
+    }
+
+    .info p {
+        font-size: 2rem;
+    }
+
+    .image {
+        padding-top: 0;
+    }
+
+    .text1 h2 {
+        font-size: 3rem;
+    }
+
+    .mypro h2 {
+        font-size: 4rem;
+    }
+
+    .about h2 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .info h1 {
+        font-size: 5rem;
+    }
+
+    .info h2 {
+        font-size: 4rem;
+    }
+
+    .info p {
+        font-size: 2.5rem;
+    }
+
+    .mypro h2 {
+        font-size: 5rem;
+    }
+
+    .about h2 {
+        font-size: 5rem;
+    }
+}
